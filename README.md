@@ -24,6 +24,13 @@ MAX31865
  
 [MAX31865.pdf](https://github.com/SalgaCorp/CONTROLADOR-TEMPERATURA-MAX31865-RELE-OLED/files/10972528/MAX31865.pdf)
 
+El módulo MAX31865 se puede configurar para trabajar con sensores PT100 de 2, 3 o 4 hilos. La configuración por defecto es para sensores de 4 hilos. 
+
+El Módulo transmisor MAX31865 permite obtener de forma sencilla y confiable las mediciones de temperatura de los sensores RTD PT100. El módulo se encarga de realizar la lectura de resistencia del sensor PT100 y convertir esta señal analógica en un dato digital para ser interpretado por un microcontrolador. El chip MAX31865 posee un conversor ADC delta-sigma de precisión con una resolución de 15 bits, equivalente a 0.03125ºC. El protocolo de comunicación o interfaz es de tipo SPI.
+
+El módulo está configurado por defecto para sensores PT100, por lo que el valor de Rref es de 430 Ohm. Para trabajar con sensores PT1000 debemos cambiar la resistencia de 430 Ohm por una de 4.3K Ohm.
+
+
 # Enlaces y librerias:
 
 https://github.com/adafruit/Adafruit_MAX31865
