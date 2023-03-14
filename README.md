@@ -21,6 +21,10 @@ PCB Datasheet Fotos
 Usa los siguientes componentes importantes:
 
 MAX31865
+
+![image](https://user-images.githubusercontent.com/40340747/225104840-7f288b6a-2d6b-44aa-809c-3c1a69e25dee.png)
+
+(De Adafruit)
  
 [MAX31865.pdf](https://github.com/SalgaCorp/CONTROLADOR-TEMPERATURA-MAX31865-RELE-OLED/files/10972528/MAX31865.pdf)
 
